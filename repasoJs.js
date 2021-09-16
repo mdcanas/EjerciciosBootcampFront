@@ -1,6 +1,6 @@
 
-// Crear una funcion para Computadora 
-//Ejercicio 1 
+// Crear una funcion para Computadora
+//Ejercicio 1
 function Computadora(ram,cpu,disco,monitor,gpu) {
 
     this.ram = ram;
@@ -17,7 +17,7 @@ function Computadora(ram,cpu,disco,monitor,gpu) {
     MONITOR: ${this.monitor}
     TIENE GPU: ${this.gpu ? "Si" : "No" }
     `
-   
+
 }
 
 //Ejercicio 2
@@ -47,31 +47,31 @@ console.log(computadora1.mostrarDetalles());
 
  function LitrosDeNafta(cantKmRecorridos) {
      return (cantKmRecorridos * 2)/100
-     
+
  }
 
  function cantidadDePesos(precio, kmRecorridos) {
     return (precio * LitrosDeNafta(kmRecorridos));
-     
+
  }
 
  console.log("La cantidad de pesos que debe pagar es: $"+ cantidadDePesos(30, 100))
 
 //Ejercicio 5
 
-/* Crear un array que contenga números del 1 al 10. 
+/* Crear un array que contenga números del 1 al 10.
 Retornar un nuevo array que contenga todos los números multiplicados por dos*/
 
 let numeros = []
     for (let i = 0; i< 100; i++) {
-        numeros.push(i + 1);      
+        numeros.push(i + 1);
     }
 
 
 
 let numerosMultiplicados = numeros.map(function(numero) {
     return numero * 2
-    
+
 })
 
 let numerosMayores = numerosMultiplicados.filter(numero => numero > 5)
@@ -82,9 +82,9 @@ console.log(primerNumeroMayor)
 
 
 
-//Ejercicio 8 
+//Ejercicio 8
 
-let pokemones = [ 
+let pokemones = [
 
     { nombre: 'pikachu', poder: 12 },
      { nombre: 'bulbasaur', poder: 6 },
